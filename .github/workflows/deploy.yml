@@ -32,7 +32,7 @@ jobs:
 
       - name: Build
         env:
-          # 后端 API 地址（从 GitHub Secrets 读取，避免硬编码）
+          # 后端 API 地址（从 GitHub Secrets 读取；未配置时为空字符串，前端会显示登录页但 API 调用会失败）
           VITE_API_BASE_URL: ${{ secrets.VITE_API_BASE_URL }}
         run: npm run build
 

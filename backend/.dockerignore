@@ -1,0 +1,32 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# 数据库与密钥（不入镜像）
+*.db
+*.db-journal
+.env
+.env.local
+.env.production
+
+# 测试与脚本
+verify_*.py
+test_*.py
+*_test.py
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore

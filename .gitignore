@@ -12,6 +12,23 @@ dist
 dist-ssr
 *.local
 
+# 环境变量（含敏感 key，禁止提交）
+.env
+.env.local
+.env.*.local
+.env.production
+
+# 后端
+backend/.venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.db
+backend/studypal.db
+*.pyc
+
+# 临时验证脚本
+verify_*.py
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

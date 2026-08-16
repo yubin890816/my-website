@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 环境
+.env
+
+# 数据库
+studypal.db
+studypal.db-journal
+*.db
+*.db-journal
+
+# IDE
+.vscode/
+.idea/
